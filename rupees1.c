@@ -1,0 +1,50 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int h,f,tw,t,fiv,two,one,rps;
+	printf("enter the amount in rupees");
+	scanf("%d",&rps);
+	while(rps>=100)
+	{
+		h=rps/100;
+		printf("hundreds=%d",h);
+		break;
+	}
+	while(rps>=50)
+	{
+		f=rps/50;
+		printf("fifty=%d",f);
+		break;
+	}
+	while(rps>=20)
+	{
+		tw=rps/20;
+		printf("twenty=%d",tw);
+		break;
+	}
+	while(rps>=10)
+	{
+		t=rps/10;
+		printf("ten=%d",t);
+		break;
+	}
+	while(rps>=fiv)
+	{
+		t=rps/5;
+		printf("fiv=%d",fiv);
+		break;
+	}
+	while(rps>=two)
+	{
+		t=rps/2;
+		printf("two=%d",two);
+		break;
+	}
+	while(rps>=one)
+	{
+		t=rps/one;
+		printf("one=%d",one);
+		break;
+	}
+}
